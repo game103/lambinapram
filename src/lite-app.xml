@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+  <id>net.game103.lambinapramlite</id>
+  <versionNumber>1.1.0</versionNumber>
+  <filename>Lamb Lite</filename>
+  <description/>
+  <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>Lamb Lite</name>
+  <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright/>
+  <initialWindow>
+    <content>lite.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>auto</renderMode>
+    <autoOrients>true</autoOrients></initialWindow>
+  <icon>
+    <image29x29>AppIconsForPublish/29x4.png</image29x29>
+    <image57x57>AppIconsForPublish/57x4.png</image57x57>
+    <image114x114>AppIconsForPublish/114x4.png</image114x114>
+    <image512x512>AppIconsForPublish/512x4.png</image512x512>
+    <image48x48>AppIconsForPublish/48x4.png</image48x48>
+    <image72x72>AppIconsForPublish/72x4.png</image72x72>
+    <image50x50>AppIconsForPublish/50x4.png</image50x50>
+    <image58x58>AppIconsForPublish/58x4.png</image58x58>
+    <image100x100>AppIconsForPublish/100x4.png</image100x100>
+    <image144x144>AppIconsForPublish/144x4.png</image144x144>
+    <image1024x1024>AppIconsForPublish/1024x4.png</image1024x1024>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <iPhone>
+    <InfoAdditions>
+      <![CDATA[<key>UIDeviceFamily</key><array><string>1</string><string>2</string></array>]]>
+    </InfoAdditions>
+    <requestedDisplayResolution>standard</requestedDisplayResolution>
+  </iPhone>
+  <supportedLanguages>en</supportedLanguages>
+  <extensions>
+    <extensionID>com.milkmangames.extensions.GameCenter</extensionID>
+    <extensionID>com.milkmangames.extensions.IAd</extensionID>
+    <extensionID>com.freshplanet.ane.AirBackgroundMusic</extensionID>
+  </extensions>
+</application>
